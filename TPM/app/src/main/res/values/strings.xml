@@ -1,0 +1,32 @@
+<resources>
+    <!--登录界面用到的String-->
+    <string name="app_name">TPM</string>
+    <string name="login">login</string>
+    <string name="register">register</string>
+    <string name="teacher_name">老师名称</string>
+    <string name="teacher_no">教职工编号</string>
+    <string name="teacher_password">教师密码</string>
+    <string name="teacher_gender">教师性别</string>
+    <string name="teacher_birth">出生年月</string>
+    <string name="teacher_in_time">入职时间</string>
+    <string name="teacher_card">身份证</string>
+    <string name="teacher_college">所属学院</string>
+    <string name="teacher_prove">教师证件</string>
+    <string name="teacher_position">教师身份</string>
+    <string name="teacher_address">地址</string>
+    <string name="teacher_email">邮箱</string>
+    <string name="teacher_phone">联系方式</string>
+    <string name="teacher_register">老师注册</string>
+
+    <string name="btn_scanZxing">扫描二维码</string>
+
+
+    <!--顶部导航栏-->
+    <array name="home_video.tab">
+        <item>教务通知@dream@0</item>
+        <item>视频@dream@1</item>
+        <item>声音@dream@2</item>
+        <item>图片@dream@3</item>
+        <item>段子@dream@4</item>
+    </array>
+</resources>

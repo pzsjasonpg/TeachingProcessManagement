@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+    <Button
+        android:id="@+id/btn_register_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"/>
+    <TextView
+        android:id="@+id/tv_register_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:textSize="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_below="@id/btn_register_back"/>
+
+    <Button
+        android:id="@+id/btn_register_student_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="学生注册"
+        android:layout_below="@id/tv_register_text" />
+
+    <Button
+        android:id="@+id/btn_register_teacher_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="老师注册"
+        android:layout_below="@id/btn_register_student_reg" />
+
+</RelativeLayout>
